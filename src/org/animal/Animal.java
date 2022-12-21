@@ -6,7 +6,7 @@ public class Animal {
 	
 	
 	public  Animal (){	
-		
+		System.out.println("Default Constructor");
 		
 		System.out.println("Default Constructor");
 	}
@@ -16,7 +16,13 @@ public class Animal {
 		this();
 		System.out.println("parameterized constructor:" + age);
 		
+		
+		
+		System.out.println("ragul branch");
+		
 	}
+	
+	
 	
 	public static void main(String[] args) {
 		Animal ani=new Animal(24);
